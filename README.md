@@ -11,8 +11,8 @@ The main aim of this project is predict whether a given transaction was a fraud 
 The dataset contains transactions made by credit cards in two days in 2013 by European cardholders and contains frauds as well. It comes from Kaggle and can be find [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
 ## Project contains:
-- fraud detection using machine learning models - Fraud_detection.ipynb
-- fraud detection using autoencoder model - Fraud_Autoencoder.ipynb
+- fraud detection using machine learning models - **Fraud_detection.ipynb**
+- fraud detection using autoencoder model - **Fraud_Autoencoder.ipynb**
     
 ## Technologies
 
