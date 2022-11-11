@@ -15,7 +15,12 @@ The aim of this project is predict whether a given transaction was a fraud. The 
 ## Project contains:
 - fraud detection using machine learning models - **Fraud_detection.ipynb**
 - fraud detection using autoencoder model - **Fraud_Autoencoder.ipynb**
-    
+
+## Summary
+The main aim of this project was prediction whether a given transaction was a fraud or not. The analysis included data analysis, data preparation and creation models by using Isolation Forest, Local Outlier Factor, Support Vector Machine (OneClassSVM) algorithms. In the first approach I evaluated our models with a few methods to check which model is the best. I used a accuracy score, f1 score, recall and confusion matrix. Finally the best model was One Class SVM with recall value 84%. That model has the lowest possible False Negatives rate and will be not miss many anomalies.
+
+The second part of analysis I used autoencoders model to fraud anomaly detection. I built the model only on one-class examples (normal transactions) with no suspicious transactions. I evaluated our model with a few methods such as reconstruction error, recall and confusion matrix. The model captures 83% of the anomaly data points (based on recall value) and has the low False Negatives rate and will be not miss many anomalies.
+
 ## Technologies
 
 The project is created with:
